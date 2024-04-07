@@ -1,0 +1,102 @@
+#grid { 
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, auto);
+
+    grid-template-areas:    "N N"
+                            "M M"
+                            "M M"
+                            "F F";  
+
+                            
+  }
+
+
+  @media screen and (max-width: 900px) and (min-width: 551px) { 
+    #grid {        
+      grid-template-columns: 100%;
+      grid-template-rows: repeat(4, auto);
+
+      grid-template-areas:    "N"
+                              "C1"                                
+                              "C2"                                                                
+                              "F"; 
+    }
+  }
+
+  @media screen and (max-width: 550px) {  
+    #grid {        
+      grid-template-columns: 100%;
+      grid-template-rows: repeat(3, auto);
+
+      grid-template-areas:    "N"
+                              "M"                                                               
+                              "F"; 
+    }
+    #main{
+      grid-template-columns: 100%;
+      grid-template-rows: repeat(2, auto);
+      display: flex;
+      direction: column;
+      grid-template-areas:    "C1"
+                              "C2" 
+
+    }
+
+    #columna_2{
+      width: 100%;
+      display: block;
+    }
+    #columna_1{
+      width: 100%;
+      display: block;
+    }
+
+    #imagen1, #imagen2, #imagen3{
+      width: 100%; 
+      left: -40px;
+    position: relative;
+    }
+    main{
+      width: 100%;
+      section{
+        width: 100%;
+        #tablacuerpo{
+          width: 100%;
+          table{
+            width: 375.33px;
+            tbody{
+              width: 375.33px;
+              tr{
+                width: 375.33px;
+                td{
+                  width: 375.33px ;
+                }
+              }
+            }
+          }
+        }
+      }
+      
+#content1{padding-left: 0;}   
+#cuerpobotones{display: flex; flex-direction: column; #tr1{width: 330px;}}
+#call{margin-left: 70px;}
+#llamar-label{margin-left: 65px;}
+#correo-label{margin-left: -20px;}
+#whatsapp-label{margin-left: -30px;}
+#td7{text-align: end;}
+#td9{text-align: center;}
+#competencias{text-align: start;}
+#slide1, #slide2, #slide3{text-align: center;}
+#contenedor1{margin-left: -20px;}
+
+
+    }
+
+  .carousel-inner{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  
+  }

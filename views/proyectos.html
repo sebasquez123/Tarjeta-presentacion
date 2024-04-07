@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Sebastian Vasquez</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="professional business card, presentation, professional information, card, business, personal catalog">
+    <meta name="description" content="Sitio de presentación personal de caracter profesional y negocio">
+    <meta name="author" content="Ing.&#169; Sebastian Vásquez Grajales">
+    <link href="../images/icons/sebas.ico" rel="icon" type="image/x-icon" sizes="32x32"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../content/js/scripts.js"></script>
+    <link href="../content/css/styles.css" rel="stylesheet" />
+    <link href="../node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../content/css/estilos_rippler.css">
+    <link rel="stylesheet" href="../content/css/proyectos_estilos.css">
+
+    <noscript id="noscpt1">
+      <strong>Lo sentimos, esta app no funciona correctamente sin JavaScript habilitado. 
+              Por favor, activelo para continuar.</strong>
+
+    </noscript>
+
+  </head>
+
+  <body>
+    
+    <!-- barra de navegacion fija-->
+  <div id="cardmain">
+      <nav id="mainNav" class="navbar navbar-expand-lg fixed-top volando"style="width:100%; margin:0%;">
+          <div class="px-4 flex-row d-flex" style="width:100%; margin:0%;">
+             <figure><a class="navbar-brand" href="#cardmain"><img src="../images/img/utp.png"  alt="logo de la empresa" ></a></figure>     
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item"><a class="nav-link" href="../index.html" target="_self">VOLVER</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </div>
+
+  <!-- void main -->
+
+  <main id="main">
+    <section id="about">
+      <div id="tablacuerpo" >
+        <table>
+            <tbody>
+              <tr>
+                <!-- columna izquierda -->
+                <td id="columna_1">
+                  <section id="seccion_proyectos" class="efecto_flote"> 
+                    <section id="seccion_lista">
+                      <div id="titulo_proyectos">
+                          <h2>LISTA DE PROYECTOS</h2> 
+                      </div>
+                      <div id="contenedormenu"><div id="menu" class="a"><button type="reset" class="btn">Menú</button></div></div>
+                     <div id="listica" class="ms-5 mt-1">
+                        <a id="proyecto1" href="#"  class="mt-3  ms-5"><i class="me-3  bi-1-square-fill"></i> PHP - STOPGAME</a>
+                        <a id="proyecto2" href="#"  class="mt-3  ms-5"><i class="me-3  bi-2-square-fill"></i> VUE.JS - STREAMING BACKOFFICE</a>
+                        <a id="proyecto3" href="#"  class="mt-3  ms-5"><i class="me-3  bi-3-square-fill"></i> WIX - ALICIA</a>
+                        <a id="proyecto4" href="#"  class="mt-3  ms-5"><i class="me-3  bi-4-square-fill"></i> .NET - ELECTRONICS LAB</a>
+                        <a id="proyecto5" href="#"  class="mt-3  ms-5"><i class="me-3  bi-5-square-fill"></i> ROBOTICA - ROBOT LABERINTO</a>
+                        <a id="proyecto6" href="#"  class="mt-3  ms-5"><i class="me-3  bi-6-square-fill"></i> ROBOTICA - DESTRUCTOR</a>
+                        <a id="proyecto7" href="#"  class="mt-3  ms-5"><i class="me-3  bi-7-square-fill"></i> MECATRONICA - AUTOBLOQUEO</a>
+                     </div>
+                     <form id="calificacion" method="post" action="../content/js/formulario_calificacion.js">
+                        <p class="clasificacion">
+                          <input id="radio1" type="radio" name="estrellas" value="5">
+                            <label class="radio" for="radio1">★</label>                           
+                          <input id="radio2" type="radio" name="estrellas" value="4">
+                            <label  class="radio" for="radio2">★</label>  
+                          <input id="radio3" type="radio" name="estrellas" value="3">
+                            <label  class="radio" for="radio3">★</label> 
+                          <input id="radio4" type="radio" name="estrellas" value="2">
+                            <label class="radio" for="radio4">★</label>
+                          <input id="radio5" type="radio" name="estrellas" value="1">
+                            <label class="radio" for="radio5">★</label>   
+                        </p>
+
+                        <div id="campos"> 
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre"  required>     
+                            <label for="coment">Comentarios.</label>
+                            <textarea class="form-control" id="coment" style="max-height:150px;" required></textarea>          
+                        </div>
+                        <div id="submit"><button type="submit" class="btn mt-3 btn-warning ">Enviar</button></div>
+                        
+                      </form>
+                     
+                      <div id="textos_calificacion">
+                        <p id="Excelente" class="texto-calificacion ocultar">Excelente</p>
+                        <p id="rebien" class="texto-calificacion ocultar">Muy bueno</p>
+                        <p id="bien" class="texto-calificacion ocultar">Bueno</p>
+                        <p id="decente" class="texto-calificacion ocultar">Aceptable</p>
+                        <p id="Mal" class="texto-calificacion ocultar">Malo</p>
+                      </div>
+
+                    </section>
+                    <section id="regalame_comentario" class="mt-5">
+                        <div >
+                                <h2>REGALAME UN COMENTARIO!</h2>                     
+                        </div>
+                    </section>
+
+                    <div id="alerta" class="centrado-vertical">
+                      <div class="alert alert-success flex-row d-flex" style="width:60%; z-index:10;" role="alert">
+                        <i class="bi bi-check-circle-fill" style="font-size: 30px; display:flex;"></i><h6 class="alert-heading ms-3 d-flex mt-1">Gracias por tu comentario!</h6>
+                      </div>
+                    </div>
+                </section>
+                </td>
+              <!-- columna derecha -->
+                <td id="columna_2">   
+                  <section id="seccion_comentarios" > 
+                    <div class="container difuminar">
+                      <div id="seccion_comentarios_contenido">
+                        <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+                          <div class="carousel-inner">
+                            <div id="php" class=" opacidad0" z-index="-7" >
+                              <img src="../images/img/nodisp.png"  class="mx-5" alt="imagen1"> 
+                            </div>                       
+                            <div id="vue" class=" opacidad0" z-index="-6" >
+                              <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="6000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/vue4.png" class="mx-5" width="565px" height="318px" alt="imagen del proyecto en vue.js"></div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/vue1.png " class=" mx-5"  width="565px" height="318px" alt="imagen del proyecto en vue.js"></div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/vue2.png " class=" mx-5"  width="565px" height="318px" alt="imagen del proyecto en vue.js"></div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/vue3.png " class=" mx-5"  width="565px" height="318px" alt="imagen del proyecto en vue.js"></div>
+                                  </div>
+                                </div>
+                              </div>                     
+                            </div> 
+                            <div id="word" class=" opacidad0" z-index="-5">
+                              <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="6000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/wix3.png" class="mx-5" width="565px" height="318px" alt="imagen del proyecto en wix"></div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="5000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/wix1.png " class=" mx-5"  width="565px" height="318px" alt="imagen del proyecto en wix"></div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="5000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/wix2.png " class=" mx-5"  width="565px" height="318px" alt="imagen del proyecto en wix"></div>
+                                  </div>
+                                </div>
+                              </div>                           
+                            </div> 
+                            <div id="net" class=" opacidad0" z-index="-4">
+                              <img src="../images/img/nodisp.png"  class="mx-5" alt="imagen4">
+                            </div> 
+                            <div id="robotl" class=" opacidad0" z-index="-3">                           
+                              <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="6000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/laberinto1.jpg" class="mx-5" width="565px" height="318px" alt="imagen del robot laberinto"></div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/laberinto2.png " class=" mx-5"  width="565px" height="318px" alt="imagen del robot laberinto"></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div> 
+                            <div id="robotd" class=" opacidad0" z-index="-2">                            
+                              <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="6000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/destructor2.png" class="mx-5" width="565px" height="318px" alt="imagen del robot destructor"></div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/destructor3.png " class=" mx-5"  width="565px" height="318px" alt="imagen del robot destructor"></div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="7000">
+                                    <div style="display: flex; justify-content:center;">
+                                      <video controls class=" mx-5"  width="500px" height="280px" style="border-radius: 15px;">
+                                        <source src="../images/img/proyects/destructor1.mp4" type="video/mp4">
+                                      </video>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div> 
+                            <div id="meca" class=" opacidad0" z-index="-1">
+                              <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="6000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/Carro1.png" class="mx-5" width="565px" height="318px" alt="imagen del modulo de bloqueo autoportante"></div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/Carro2.png " class=" mx-5"  width="565px" height="318px" alt="imagen del modulo de bloqueo autoportante"></div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/Carro3.png" class=" mx-5" width="565px"  height="318px"  alt="imagen del modulo de bloqueo autoportante"></div>
+                                  </div>
+                                </div>
+                              </div>                           
+                            </div> 
+                          </div>
+                          <div id="descripciones" class="a">
+                              <div>
+                                <p id="p1" class="ps"> Un programa web realizado en php vanilla, para el entretenimiento. Stop es un juego de velocidad mental que todos conocemos y hemos jugado alguna vez. Esta hecho para poner a prueba competencias en lenguage php. Es un proyecto en actual desarrollo. </p>
+                                <p id="p2" class="ps"> Un sistema CRUD realizado en vue.js y node.js que estructura una plataforma web que gestiona registros de ventas e inventario de plataformas streaming, el sistema permite ingresar usuarios ligados a servicios, ademas de sistematizar analisis estadisticos y tiempos de vencimiento para solucionar un problema global. Este sistema se sigue desarrollando...</p>
+                                <p id="p3" class="ps"> Una plataforma de catalogo y venta directa realizado en wix, que interactua con el cliente para conocer rasgos directos de la empresa, informar novedades, registrar sugerencias y opiniones y realizar compras sencillas en linea.</p>
+                                <p id="p4" class="ps"> Un sistema web de ventas basico con estructura MVC hecho en .Net framework, pretende recibir un solo mercado objetivo; la comunidad universitaria e interesados en la compra de modulos electronicos de caracter academico, experimental y competitivo. Actualmente sigue en desarrollo... </p>
+                                <p id="p5" class="ps"> El robot laberinto es un automata programado en pic C compiler con lenguaje C basado en conceptos de machine lenguage creado para resolver cualquier laberinto con buena velocidad y autonomia. 2 veces ganador del primer lugar en las competencias de la facultad de mecatronica y mecanica de la UTP. Fue realizado para competir y poner a prueba programación en C</p>
+                                <p id="p6" class="ps"> El robot destructor es un arma de destruccion rodante, esta compuesto por motores de buena relación velocidad-torque y potencia, y una volante de inercia que arraza con cualquier objeto a su paso. Su armadura metalica, resistencia, potencia y aspecto agresivo, lo resaltaron en competencia ganando el segundo lugar en el torneo de robots de pelea de la facultad de mecanica de la UTP.</p>
+                                <p id="p7" class="ps"> Un artefacto hecho para combatir el hurto de vehiculos, es un proyecto creado para salvaguardar los interiores de los vehiculos contra tecnicas de intrusion por hilos, palanca o llave maestra. Actualmente en proceso mejora y patente.</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>  
+                </td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+    <!-- Footer-->
+    <footer >
+        <div class="container px-4 pt-3"><p class="m-0 text-center"> &copy; Made by <small><em>Sebastian Vasquez G -</em></small> 03/2024</p></div>
+    </footer>
+
+</body>
+<div id="fondo-semi-transparente"></div>
+</html>
+
+<!--manejo de efectos y eventos-->
+<script type="module" src="../content/js/formulario_calificacion.mjs"></script>
+<script type="module" src="../content/js/movimiento_de_enlaces_y_formulario.mjs"></script> 
+<script src="../content/js/Calificacion_estrellas.js"></script>
+
+<!-- bootstrap y jquery -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+

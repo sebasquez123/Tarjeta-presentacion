@@ -1,0 +1,392 @@
+
+#columna_1{
+
+  grid-area: C1;
+}
+
+#columna_2{
+
+  grid-area: C2;
+}
+nav{
+  grid-area: N;
+}
+main{
+  grid-area: M;
+}
+
+#modal_header{
+    background: linear-gradient(to right,#001f84,#ffffff);
+    h5{color: #eee;}
+    button{border: 0; background-color:#ffffff; background-color:transparent; border:none;
+    i{font-size:23px;}
+  }
+}
+  #modal-footer{
+    button{
+      background-color: #2a3d7b; color:#eee;
+    }
+  }
+
+#opciones{
+  z-index: 2000;
+}
+
+  #seccion_proyectos{
+    padding: 0;
+    margin: 0;
+    height: 300px;
+    a{
+      padding: 0;
+      div{width: 300px; border-radius: 20px 20px 30px 30px; padding:0;
+        div{text-align:left; padding:0;
+        h5{margin-bottom:0; display:flex;}
+        p{font-size: 12px; display:flex; padding:0; margin-bottom:10px;} 
+        }
+      }
+    }
+  }   
+
+
+#imagen1,#imagen2,#imagen3{
+  border-radius: 10px;
+}
+
+
+
+  #tablacuerpo{
+    position: relative; margin-top:-80px;
+    table{width:100%;}
+  }
+  #carrusel{
+    .carousel-item{
+      color:#0000007a;
+    }
+    h5{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  #tablamodelo{
+    table{
+      width:100%;
+      td{width: 50%; height:45px;}
+    }
+  }
+
+#cardmain{
+  img{height: 60px; width:100px; margin-top: 15px;}
+  
+}
+
+#code{
+  p{
+    color: #1237b2;
+  }
+  div{
+    flex-direction: row; justify-content:center;
+    display: flex;
+    margin-top: 64px;
+    img{
+      width: 150px; height: 150px;
+    }
+  }
+}
+
+#share{
+  flex-direction: column;
+  div{
+    flex-direction: row;
+    display: flex;
+    margin-top:20px;
+   a{
+    margin-left: 25px;
+   }
+
+  }
+
+  #f{
+    width: 100px; border-radius:12px;
+
+  }
+  #w{
+    width: 130px; 
+    
+  }
+  #l{
+    width: 120px; border-radius:12px;
+  
+  }
+  #f:hover {
+    width: 98px; 
+    margin-right: 2px;
+  }
+  #w:hover{
+    width: 128px; 
+  }
+  #l:hover{
+    width: 118px; 
+  }
+
+
+}
+
+footer{
+  grid-area: F;
+  background-color: #00294a;
+  color:rgb(255, 255, 255);
+  height: 50px;
+  p{
+    text-align: center;
+    margin: 0;
+  }
+
+}
+
+
+
+#td7{padding-right: 20px;}
+
+#llamar-label{
+  padding-left: 15px;
+}
+#correo-label{
+  padding-left: 15px;
+}
+#whatsapp-label{
+  padding-left: 2px;
+}
+
+#content1{
+  padding-left: 5%;
+
+}
+#contenedor1{margin-left: 22px;}
+#introduccion{
+  text-align:justify; font-size:12px; color:#0000007a; padding: 5px 60px 60px 60px; font-family:arial; font-weight:bold;
+  #S{
+    font-size:25px;
+    font-weight:normal;
+  }
+}
+
+#proyectos {
+  display: flex;
+  justify-content: center;
+}
+
+#proyectos a{
+  margin: 0px;
+  border-radius: 20px 20px 30px 30px ;
+  div{
+    border: solid #ffffff;
+  }
+  transition: all 1s ease-in-out;
+}
+
+#proyectos a:hover {
+  border-radius: 20px 20px 30px 30px ;
+  box-shadow: 0px 0px 20px #0070c6;   
+  transition: 0.3s ease;
+  margin-top: 3px;
+  margin-left: 3px;
+  transition: all 0.1s ease-in-out;
+}
+
+
+#datos_redes_personales{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  i{
+    font-size: 25px;
+    color: #000000;
+
+  }
+  tr{
+  display: flex ;
+  flex-direction: row;
+  justify-content: center;
+  }
+}
+#datos_redes_personales a i:hover {
+  color: #b5c6c8;
+  
+}
+
+#tablabotones a{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 75px;
+}
+#tablabotones i{
+  display: block;
+  font-size: 35px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  color: #FCFCFC;
+  background-color: #0070c6;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#tablabotones a i:hover {background-color: rgb(0, 158, 211);color: #FCFCFC;}
+
+#tablabotones{
+  max-width: 400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+#columna_1{
+  width: 100%; height:800px; align-content:start;
+  margin-top: -20px; display:flex;
+  #colum{
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    justify-content: center;
+    margin-left: -18px;
+  
+  }
+}
+
+#columna_2{
+  width: 50%; height:800px;
+  background-color:#ededed69;
+  border-radius: 50px 0px 50px 0px; 
+  background: linear-gradient(to bottom, #ededed84, #ffffffb8);
+  align-content:start;
+
+  #presentacion_personal{
+    margin-top: 90px;
+    display: flex;
+    padding: 0%;
+  }
+
+  #minombre{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+  }
+  #ingeniero{
+    font-size: 18px; color:rgba(0, 0, 0, 0.478); 
+    display: flex;
+    justify-content: center;
+  }
+
+}
+#mifotografia {
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+    width:160px;
+    height: 160px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.619)
+}
+
+  #fotocontenedor{
+      position: relative;
+      z-index: 4;
+      margin-top: -100px;
+      display:flex;
+      justify-content: center;
+  }
+
+  #fondoambiente{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+    border:0px;
+  }
+
+  #mainNav {  
+    background-color: #ffffffee; /* Color de fondo del nav */
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.199); /* Define la sombra con desplazamiento X: 0px, desplazamiento Y: 2px, desenfoque: 4px, color de sombra con opacidad: rgba(0, 0, 0, 0.1) */
+    z-index: 3; /* Asegura que el nav se superponga sobre otros elementos */
+    height:80px;
+  }
+
+  #servicios_ambiente{
+    background-color: #ffffffee; /* Color de fondo del nav */
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1); /* Define la sombra con desplazamiento X: 0px, desplazamiento Y: 2px, desenfoque: 4px, color de sombra con opacidad: rgba(0, 0, 0, 0.1) */
+    z-index: 2; /* Asegura que el nav se superponga sobre otros elementos */
+    border-radius: 0px 50px 50px 0px;
+    padding: 0px;
+    margin-top: 80px;
+    position: relative;
+  }
+
+  .tab {
+    position: absolute;
+    width: 100px;
+    height: 170px;
+    margin-top: 80px;
+    padding: 0;
+    border-radius: 0;
+    z-index: 2;
+    left: 0;
+    background: rgba(0, 0, 0, 0.795);
+    transition: all 0.3s ease-in-out;
+    text-align: center;  
+    table{
+      tr{
+        display: flex;      
+      }
+      height:170px;
+      padding: 0;
+    }
+     i{
+      font-size: 20px;
+      color: #ffffff;}
+  }
+  .tab:hover {
+    width: 1257px;
+    text-align: center;
+  }
+
+  .tab a i:hover {
+    font-size: 25px;
+    transition: 0.2s ease;
+    
+  }
+
+  .tab .vis {
+    visibility: hidden;
+    transition: 0.1s ease;
+    text-align: center;
+    
+  }
+
+  .tab:hover .vis {
+    visibility: visible;
+    color: #ffffff;
+    transition: 0.01s ease;
+    
+  }
+
+  .tab td{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+  }
+ 
+  .tab:hover td {
+    width: 100px;
+    height: 50px;
+  }
+
+
+  .lista-1{
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+  }

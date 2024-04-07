@@ -1,0 +1,7 @@
+En Javascript las acciones de los usuarios son llamadas eventos.
+
+Cuando el usuario realiza una acción, como un clic del ratón o la presión de una tecla, un evento específico para cada acción y cada elemento es disparado.
+
+Además de los eventos producidos por los usuarios existen también otros eventos disparados por el sistema (por ejemplo, el evento load que se dispara cuando el documento es completamente cargado). Estos eventos son manejados por códigos o funciones. El código que responde al evento es llamado manejador. Cuando registramos un manejador lo que hacemos es definir cómo nuestra aplicación responderá a un evento en particular.
+
+Luego de la estandarización del método addEventListener(), este procedimiento es usualmente llamado “escuchar al evento”, y lo que hacemos para preparar el código que responderá a ese evento es “agregar una escucha” a un elemento en particular. 
