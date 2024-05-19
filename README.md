@@ -6,4 +6,5 @@
   ![](https://github.com/sebasquez123/Tarjeta-presentacion/blob/main/figures/Figura-2.png)
   ![](https://github.com/sebasquez123/Tarjeta-presentacion/blob/main/figures/Figura-3.png)
   ![](https://github.com/sebasquez123/Tarjeta-presentacion/blob/main/figures/Figura-4.png)
+   ![](https://github.com/sebasquez123/Tarjeta-presentacion/blob/main/figures/Figura-5.png)
 <div>
