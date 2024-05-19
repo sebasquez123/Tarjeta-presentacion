@@ -54,17 +54,17 @@
                   <section id="seccion_proyectos" class="efecto_flote"> 
                     <section id="seccion_lista">
                       <div id="titulo_proyectos">
-                          <h2>LISTA DE PROYECTOS</h2> 
+                          <h2>ALGUNOS DESARROLLOS</h2> 
                       </div>
                       <div id="contenedormenu"><div id="menu" class="a"><button type="reset" class="btn">Menú</button></div></div>
                      <div id="listica" class="ms-5 mt-1">
-                        <a id="proyecto1" href="#"  class="mt-3  ms-5"><i class="me-3  bi-1-square-fill"></i> PHP - STOPGAME</a>
+                        <a id="proyecto1" href="#"  class="mt-3  ms-5"><i class="me-3  bi-1-square-fill"></i> DJANGO - STOPGAME</a>
                         <a id="proyecto2" href="#"  class="mt-3  ms-5"><i class="me-3  bi-2-square-fill"></i> VUE.JS - STREAMING BACKOFFICE</a>
-                        <a id="proyecto3" href="#"  class="mt-3  ms-5"><i class="me-3  bi-3-square-fill"></i> WIX - ALICIA</a>
-                        <a id="proyecto4" href="#"  class="mt-3  ms-5"><i class="me-3  bi-4-square-fill"></i> .NET - ELECTRONICS LAB</a>
-                        <a id="proyecto5" href="#"  class="mt-3  ms-5"><i class="me-3  bi-5-square-fill"></i> ROBOTICA - ROBOT LABERINTO</a>
-                        <a id="proyecto6" href="#"  class="mt-3  ms-5"><i class="me-3  bi-6-square-fill"></i> ROBOTICA - DESTRUCTOR</a>
-                        <a id="proyecto7" href="#"  class="mt-3  ms-5"><i class="me-3  bi-7-square-fill"></i> MECATRONICA - AUTOBLOQUEO</a>
+                        <a id="proyecto3" href="#"  class="mt-3  ms-5"><i class="me-3  bi-3-square-fill"></i> ARDUINO - CAMARO69</a>
+                        <a id="proyecto4" href="#"  class="mt-3  ms-5"><i class="me-3  bi-4-square-fill"></i> REACT.JS - INTISPARE PARTS</a>
+                        <a id="proyecto5" href="#"  class="mt-3  ms-5"><i class="me-3  bi-5-square-fill"></i> PIC C - ROBOT LABERINTO</a>
+                        <a id="proyecto6" href="#"  class="mt-3  ms-5"><i class="me-3  bi-6-square-fill"></i> ARDUINO C - DESTRUCTOR</a>
+                        <a id="proyecto7" href="#"  class="mt-3  ms-5"><i class="me-3  bi-7-square-fill"></i> ARDUINO C - AUTOBLOQUEO</a>
                      </div>
                      <form id="calificacion" method="post" action="../content/js/formulario_calificacion.js">
                         <p class="clasificacion">
@@ -82,8 +82,8 @@
 
                         <div id="campos"> 
                             <label for="nombre">Nombre</label>
-                            <input type="text" class="form-control" id="nombre"  required>     
-                            <label for="coment">Comentarios.</label>
+                            <input type="text" class="form-control" id="nombre" autocomplete="off" required>   
+                            <label for="coment">Comentarios o sugerencias.</label>
                             <textarea class="form-control" id="coment" style="max-height:150px;" required></textarea>          
                         </div>
                         <div id="submit"><button type="submit" class="btn mt-3 btn-warning ">Enviar</button></div>
@@ -119,8 +119,23 @@
                       <div id="seccion_comentarios_contenido">
                         <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
                           <div class="carousel-inner">
-                            <div id="php" class=" opacidad0" z-index="-7" >
-                              <img src="../images/img/nodisp.png"  class="mx-5" alt="imagen1"> 
+                            <div id="Django" class=" opacidad0" z-index="-7" >
+                              <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="6000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/django1.png" class="mx-5" width="565px" height="318px" alt="imagen del proyecto en django"></div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/django2.png " class=" mx-5"  width="565px" height="318px" alt="imagen del proyecto en django"></div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/django3.png " class=" mx-5"  width="565px" height="318px" alt="imagen del proyecto en django"></div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/django4.png " class=" mx-5"  width="565px" height="318px" alt="imagen del proyecto en django"></div>
+                                  </div>
+                                </div>
+                              </div> 
                             </div>                       
                             <div id="vue" class=" opacidad0" z-index="-6" >
                               <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
@@ -140,22 +155,25 @@
                                 </div>
                               </div>                     
                             </div> 
-                            <div id="word" class=" opacidad0" z-index="-5">
-                              <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+                            <div id="Arduino" class="opacidad0" z-index="-5">
+                               <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active" data-bs-interval="6000">
-                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/wix3.png" class="mx-5" width="565px" height="318px" alt="imagen del proyecto en wix"></div>
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/camaro1.jpeg" class="mx-5" width="565px" height="318px" alt="imagen del proyecto en Arduino"></div>
                                   </div>
-                                  <div class="carousel-item" data-bs-interval="5000">
-                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/wix1.png " class=" mx-5"  width="565px" height="318px" alt="imagen del proyecto en wix"></div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/camaro2.jpeg " class=" mx-5"  width="565px" height="318px" alt="imagen del proyecto en Arduino"></div>
                                   </div>
-                                  <div class="carousel-item" data-bs-interval="5000">
-                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/wix2.png " class=" mx-5"  width="565px" height="318px" alt="imagen del proyecto en wix"></div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/camaro3.jpeg " class=" mx-5"  width="565px" height="318px" alt="imagen del proyecto en Arduino"></div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <div style="display: flex; justify-content:center;"><img  src="../images/img/proyects/camaro4.jpeg " class=" mx-5"  width="565px" height="318px" alt="imagen del proyecto en Arduino"></div>
                                   </div>
                                 </div>
-                              </div>                           
+                              </div>        
                             </div> 
-                            <div id="net" class=" opacidad0" z-index="-4">
+                            <div id="react" class=" opacidad0" z-index="-4">
                               <img src="../images/img/nodisp.png"  class="mx-5" alt="imagen4">
                             </div> 
                             <div id="robotl" class=" opacidad0" z-index="-3">                           
@@ -207,10 +225,10 @@
                           </div>
                           <div id="descripciones" class="a">
                               <div>
-                                <p id="p1" class="ps"> Un programa web realizado en php vanilla, para el entretenimiento. Stop es un juego de velocidad mental que todos conocemos y hemos jugado alguna vez. Esta hecho para poner a prueba competencias en lenguage php. Es un proyecto en actual desarrollo. </p>
-                                <p id="p2" class="ps"> Un sistema CRUD realizado en vue.js y node.js que estructura una plataforma web que gestiona registros de ventas e inventario de plataformas streaming, el sistema permite ingresar usuarios ligados a servicios, ademas de sistematizar analisis estadisticos y tiempos de vencimiento para solucionar un problema global. Este sistema se sigue desarrollando...</p>
-                                <p id="p3" class="ps"> Una plataforma de catalogo y venta directa realizado en wix, que interactua con el cliente para conocer rasgos directos de la empresa, informar novedades, registrar sugerencias y opiniones y realizar compras sencillas en linea.</p>
-                                <p id="p4" class="ps"> Un sistema web de ventas basico con estructura MVC hecho en .Net framework, pretende recibir un solo mercado objetivo; la comunidad universitaria e interesados en la compra de modulos electronicos de caracter academico, experimental y competitivo. Actualmente sigue en desarrollo... </p>
+                                <p id="p1" class="ps"> Un programa web realizado en Django, para el entretenimiento. Stop es un juego de velocidad mental que todos conocemos y hemos jugado alguna vez. Esta hecho para poner a prueba competencias del lado del servidor con python. El proyecto termino su fase preliminar, el desarrollo de su modulo multijugador online, esta en desarrollo. </p>
+                                <p id="p2" class="ps"> Un sistema CRUD realizado en vue.js y node.js que estructura una plataforma web que gestiona registros de ventas e inventario de plataformas streaming, el sistema permite ingresar usuarios ligados a servicios, ademas de sistematizar analisis estadisticos y tiempos de vencimiento para solucionar un problema global en dicha industria. Es un sistema en actual desarrollo.</p>
+                                <p id="p3" class="ps"> Un desarrollo realizado para la compañia chevrolet de la ciudad de pereira, en donde se pone a prueba tenicas de hardware y software altamente competitivas, con el objetivo de exponer las capacidades de desarrollo tecnologico por medio de recreaciones miniatura de un auto real en terminos de prototipado y programación. El sistema se diseña para controlar un camaro 1969 a escala.</p>
+                                <p id="p4" class="ps"> Un sistema de ventas y gestion de inventario de elementos tipo Stock. El sistema plantea revolucionar el amplio y concurrido mercado de repuestos automotrices para la ciudad de pereira, integrando metodos de compra innovadores, seguros y una experiencia de usuario que facilita determinar con precisión la necesidad del cliente.</p>
                                 <p id="p5" class="ps"> El robot laberinto es un automata programado en pic C compiler con lenguaje C basado en conceptos de machine lenguage creado para resolver cualquier laberinto con buena velocidad y autonomia. 2 veces ganador del primer lugar en las competencias de la facultad de mecatronica y mecanica de la UTP. Fue realizado para competir y poner a prueba programación en C</p>
                                 <p id="p6" class="ps"> El robot destructor es un arma de destruccion rodante, esta compuesto por motores de buena relación velocidad-torque y potencia, y una volante de inercia que arraza con cualquier objeto a su paso. Su armadura metalica, resistencia, potencia y aspecto agresivo, lo resaltaron en competencia ganando el segundo lugar en el torneo de robots de pelea de la facultad de mecanica de la UTP.</p>
                                 <p id="p7" class="ps"> Un artefacto hecho para combatir el hurto de vehiculos, es un proyecto creado para salvaguardar los interiores de los vehiculos contra tecnicas de intrusion por hilos, palanca o llave maestra. Actualmente en proceso mejora y patente.</p>

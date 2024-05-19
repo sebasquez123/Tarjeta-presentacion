@@ -42,11 +42,12 @@
 
                       // realizo condiciones para asignar la distancia de los elementos en el eje horizontal
                       //segun el ancho de la frase seleccionada
-                      if(a == 'proyecto2' ||a == 'proyecto5' || a == 'proyecto7'){ distanciaLeft = 5;}
-                      else if(a == 'proyecto3'){ distanciaLeft = 110;}
-                      else if(a == 'proyecto4'){ distanciaLeft = 45;}
+                      if (a == 'proyecto2' ||  a == 'proyecto7') { distanciaLeft = 5; }
+                      else if(a == 'proyecto5'){ distanciaLeft = 25;}
+                      else if(a == 'proyecto3'){ distanciaLeft = 60;}
+                      else if(a == 'proyecto4'){ distanciaLeft = 40;}
                       else if(a == 'proyecto6'){ distanciaLeft = 50;}
-                      else { distanciaLeft = 90;}
+                      else { distanciaLeft = 60;}
                       //ddefino la posicion del elemento seleccionado como absoluta y lo posiciono respecto al contenedor del primer enlace 
                         document.getElementById(a).style.position = "absolute";
                         document.getElementById(a).style.top = contenedorDiv.offsetTop + distanciaTop + "px";
@@ -93,10 +94,10 @@
             document.getElementById('proyecto'+ i).addEventListener("click", function(){
             document.getElementById('descripciones').classList.replace("a", "mostrar");
             document.getElementById('p'+i).style.display = 'flex';
-              if(i==1){document.getElementById('php').classList.replace("opacidad0", "mostrar");}
+              if(i==1){document.getElementById('Django').classList.replace("opacidad0", "mostrar");}
               if(i==2){document.getElementById('vue').classList.replace("opacidad0", "mostrar");}
-              if(i==3){document.getElementById('word').classList.replace("opacidad0", "mostrar");}
-              if(i==4){document.getElementById('net').classList.replace("opacidad0", "mostrar");}
+              if(i==3){document.getElementById('Arduino').classList.replace("opacidad0", "mostrar");}
+              if(i==4){document.getElementById('react').classList.replace("opacidad0", "mostrar");}
               if(i==5){document.getElementById('robotl').classList.replace("opacidad0", "mostrar");}
               if(i==6){document.getElementById('robotd').classList.replace("opacidad0", "mostrar");}
               if(i==7){document.getElementById('meca').classList.replace("opacidad0", "mostrar");}
